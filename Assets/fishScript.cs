@@ -12,7 +12,7 @@ public class fishScript : MonoBehaviour
     public AudioSource sourcepop;
     public Animator animator;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update sfsf
    void Start()
     {
         
@@ -34,7 +34,7 @@ public class fishScript : MonoBehaviour
             logic.GameOver();
             BirdAlive=false;
         }
-        // This
+        // This is a tst file
          
     }
 
