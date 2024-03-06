@@ -12,6 +12,8 @@ public class fishScript : MonoBehaviour
     public AudioSource sourcepop;
     public Animator animator;
 
+
+    
     // Start is called before the first frame update sfsf
    void Start()
     {
@@ -22,12 +24,19 @@ public class fishScript : MonoBehaviour
     // Update is called once per frame,
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && BirdAlive) //Used for keyboard input
+        //animator.SetBool("bounce", false);
+        if (Input.GetKeyDown(KeyCode.Space) && BirdAlive) //Used for keyboard input
         //if(Input.touchCount > 0 && BirdAlive) 
         {
-            myrigidbody.velocity = Vector2.down * wingStrenth;
             sourceBounce.Play();
-             
+            animator.SetBool("bounce", true);
+            myrigidbody.velocity = Vector2.down * wingStrenth;
+            
+               
+        }
+        else
+        {
+            animator.SetBool("bounce", false);
         }
         if (transform.position.y < -17 ||transform.position.y > 17)
         {

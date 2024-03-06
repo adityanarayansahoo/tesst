@@ -167,7 +167,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 3
-  AndroidMinSdkVersion: 33
+  AndroidMinSdkVersion: 31
   AndroidTargetSdkVersion: 33
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -251,16 +251,16 @@ PlayerSettings:
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
-  useCustomLauncherGradleManifest: 0
+  useCustomLauncherGradleManifest: 1
   useCustomBaseGradleTemplate: 0
   useCustomGradlePropertiesTemplate: 0
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 2
+  AndroidTargetArchitectures: 3
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: /Users/adityasahoo/Desktop/Unity proj/notAfishABB/user.keystore
+  AndroidKeystoreName: /Users/adityasahoo/Desktop/Unity proj/build4/user.keystore
   AndroidKeyaliasName: notafish
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
@@ -814,11 +814,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 8cc1b9e1-51ea-472f-a0d7-7dce7c4f32c8
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: tesst
-  organizationId: adityanarayansahoo
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
