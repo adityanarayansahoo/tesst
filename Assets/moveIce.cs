@@ -8,6 +8,8 @@ public class moveIce : MonoBehaviour
     public float deadZone= -40;
     public float speedIncriment=0;
 
+    
+
     public float playerScoreTracker=0;
     public logicScript logic;
     // Start is called before the first frame update
@@ -37,14 +39,13 @@ public class moveIce : MonoBehaviour
         transform.position = transform.position + (Vector3.left *  moveSpeed) * Time.deltaTime;
 
         Debug.Log("speed " + moveSpeed.ToString () +" score" + logic.playerScore);
-        
-        
-        
+
+
 
         // moveSpeed+=moveSpeed+1;
         // moveSpeed=moveSpeed*Time.deltaTime;
 
-        if(transform.position.x <= deadZone){
+        if (transform.position.x <= deadZone){
             Debug.Log("ice deleted");
             Destroy(gameObject);
         }

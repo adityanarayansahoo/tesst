@@ -10,7 +10,11 @@ public class IceSpanScript : MonoBehaviour
     public float timer = 0 ;
     float HightOffset=8 ;
     float count=0;
-    
+
+
+    public GameObject instruction;
+
+
     public logicScript logic;
     void Start()
     {
@@ -40,6 +44,10 @@ public class IceSpanScript : MonoBehaviour
             Debug.Log("ice CREATED");
 
             }
+        }
+        if(logic.playerScore >= 4)
+        {
+            instruction.SetActive(false);
         }
         
     }
